@@ -1,0 +1,50 @@
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  align-items:baseline-position;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #f30c0c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+  font-family: Arial;
+}
+
+nav a:hover {
+  color: #07011b;;
+}
+
+h1 {
+  color: WHITE;
+  font-family: Airstrike Condensed, Airstrike Condensed;
+  text-align: justify;
+  object-position: 20cm;
+}
+
+h3 {
+  color: red;
+  font-family: Calinastiya Demo, Calinastiya Demo;
+  font-size: 50px;
+  font-style: italic;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(11,33,96,1) 0%, rgba(99,99,217,1) 30%, rgba(114,102,224,1) 46%, rgba(38,8,191,1) 70%, rgba(90,53,187,1) 90%, rgba(82,23,199,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
